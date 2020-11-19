@@ -5,7 +5,7 @@ public class Filme {
        private String idiomaLegenda;
        private boolean estaPausado;
        private String nome;
-       private int autor;
+       private String autor;
    
        // metodos construtores
        public Filme(String nomeFilme, int duracaoFilme, String autorFilme ){
@@ -75,7 +75,7 @@ public class Filme {
                this.nome = nomeFilme;
            }
        
-           public int getAutor() {
+           public String getAutor() {
                return autor;
            }
        
