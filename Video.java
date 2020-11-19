@@ -1,6 +1,6 @@
 public class Video {
     
-    Filme filme1 = new Filme ("O Poco", 90, 2019);
+    Filme filme1 = new Filme ("O Poco", 90, "Cenas e momentos");
     filme1.exibirDetalhes();
     filme1.executar();
     filme1.pausar();
@@ -12,7 +12,7 @@ public class Video {
     System.out.println();
 
     System.out.println("");
-    Filme filme2 = new Filme ("Power",115, 2020);
+    Filme filme2 = new Filme ("Power",115, "Acao");
     System.out.println();
     filme2.exibirDetalhes();
     filme2.executar();
@@ -25,7 +25,7 @@ public class Video {
     System.out.println();
 
     System.out.println("");
-    Serie serie1 = new Serie ("O Airador", 3, 31, 40, 2018);
+    Serie serie1 = new Serie ("O Atirador", 3, 31, "Acao" );
     System.out.println();
     serie1.exibirDetalhes();
     serie1.executar();
@@ -38,7 +38,7 @@ public class Video {
     System.out.println();
 
     System.out.println("");
-    Serie serie2 = new Serie ("Perdidos no Espaco", 22, 2, 20, 2019);
+    Serie serie2 = new Serie ("Perdidos no Espaco", 2, 20, "Ficcao cientifica e aliens");
     System.out.println();
     serie2.exibirDetalhes();
     serie2.executar();
@@ -48,6 +48,4 @@ public class Video {
     serie2.mudarAudio();
     serie2.mudarLegenda();
     serie2.mudarLegenda();
-}
-    
 }
