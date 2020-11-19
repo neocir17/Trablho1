@@ -5,13 +5,13 @@ public class Filme {
        private String idiomaLegenda;
        private boolean estaPausado;
        private String nome;
-       private String autor;
+       private int genero;
    
        // metodos construtores
-       public Filme(String nomeFilme, int duracaoFilme, String autorFilme ){
+       public Filme(String nomeFilme, int duracaoFilme, String generoFilme ){
            this.nome = nomeFilme;
            this.duracao = duracaoFilme;
-           this.autor = autorFilme;
+           this.genero = generoFilme;
            this.idiomaAudio = "Portugês(Brasil)";
            this.idiomaLegenda = "Portugês(Brasil)";
            this.estaPausado = false;
@@ -75,12 +75,12 @@ public class Filme {
                this.nome = nomeFilme;
            }
        
-           public String getAutor() {
-               return autor;
+           public int getGenero() {
+               return genero;
            }
        
-           public void setAutor(int autorFilme) {
-               this.autor = autorFilme;
+           public void setgeneros(int generoFilme) {
+               this.genero = generoFilme;
            }
        
              
